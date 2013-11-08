@@ -10,7 +10,7 @@ I've been working hard for the first two weeks of [Code Academy](http://codeacad
 
 To make sure that I don't forget the basics of Ruby, I've outlined them over and over. Below is my most basic outline of Ruby concepts that I never want to forget. Some of the examples are taken from the excellent book [Learn to Program](http://www.amazon.com/Program-Second-Edition-Facets-Series/dp/1934356360/ref=tmm_pap_title_0) by Chris Pine.
 
-## Arrays and Hashes
+### Arrays and Hashes
 
 ### Arrays
 
@@ -36,7 +36,7 @@ Add to hash:
     h[:cow] = "moo"
 
 
-## Iterators
+### Iterators
 
 ### Each Method (p. 66)
 
@@ -51,7 +51,7 @@ Add to hash:
     end
 
 
-## Methods
+### Methods
 
 ### Methods with parameters (p. 76)
 
@@ -64,7 +64,7 @@ Add to hash:
 Initialize method is called automatically when new instance of class is created (p. 132)
 
 
-## Classes
+### Classes
 
 ### Built in Classes (p. 117)
 

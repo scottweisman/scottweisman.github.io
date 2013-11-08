@@ -52,10 +52,9 @@ Next, you also have to make a slight adjustment to your media queries by adding 
 Once you have ProtoFluid installed and your media queries updated, all you have to do is add **#protoFluid** to the end of your url, like this: http://yourwebsite.com/#protoFluid
 
 If you have everything installed correctly, your browser should look like this:
-[![ProtoFluid Screenshot](/images/protofluid_screenshot.png "ProtoFluid Screenshot")](/images/protofluid_screenshot.png)
+[![ProtoFluid Screenshot](http://f.cl.ly/items/0j3M3x0I0s3F0d2T1T2B/protofluid_screenshot.png "ProtoFluid Screenshot")](http://f.cl.ly/items/0j3M3x0I0s3F0d2T1T2B/protofluid_screenshot.png)
 
-One of the best features of ProtoFluid is that you can preview changes to your code right in the browser with Web Inspector or Firebug like this:
-[![ProtoFluid Inspector](/images/protofluid_inspector.png "ProtoFluid Inspector")](/images/protofluid_inspector.png)
+One of the best features of ProtoFluid is that you can preview changes to your code right in the browser with Web Inspector or Firebug.
 
 This makes it really easy to figure out which elements you need to change to make your site look great on mobile browsers.
 

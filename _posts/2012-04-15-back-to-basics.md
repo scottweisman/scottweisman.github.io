@@ -12,6 +12,6 @@ With Rails, on the other hand, you can get up and running and build your own blo
 
 When you're working with Rails, it's easy to forget the magic Ruby is doing behind the scenes. You can create a Rails app with very little knowledge of Ruby, **but that doesn't mean that you should**. I think that learning Ruby from the ground up will allow me to have a much better understanding of what Rails is actually doing. So for the next week, in addition to class, I'll be diving deep into Chris Pine's [Learn to Program](http://www.amazon.com/Program-Second-Edition-Facets-Series/dp/1934356360/ref=tmm_pap_title_0).
 
-## The Code Academy Experience
+### The Code Academy Experience
 
 Beyond getting started with Ruby, the first week of Code Academy was a blast! I really enjoyed meeting and getting to know my classmates in the spring development class. Everyone is focused and interested in learning as much as possible. It was awesome to spend time with so many people who are as interested in web development as I am. I'm really looking forward to the next 10 weeks.

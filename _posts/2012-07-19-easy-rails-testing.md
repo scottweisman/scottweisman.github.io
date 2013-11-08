@@ -10,21 +10,20 @@ Every beginning Rails developer wants to tests their code. Unfortunately, most s
 If you're a beginner and want to test, start by learning how to write integration (Test::Unit) or request (RSpec) tests. These types of tests allow you to simulate what the user will actually do in the browser. [Capybara](https://github.com/jnicklas/capybara/) is a gem that makes it easy to write integration/request tests. If you use Capybara, the difference between Test::Unit and RSpec is minimal.
 
 Here's a simple RSpec request spec (test) with Capybara for user sign up:
-
-    #spec/requests/users_spec.rb
-
-    require 'spec_helper'
-
-    describe "Users" do
-      it "allows users to sign up" do
-        visit root_path
-        click_link 'Sign up'
-        fill_in 'Email', with: 'user@example.com'
-        fill_in 'Password', with: 'secret'
-        click_button 'Sign up'
-        page.should have_content('Welcome')
-      end
-    end
+{% highlight ruby %}
+#spec/requests/users_spec.rb
+require 'spec_helper'
+describe "Users" do
+  it "allows users to sign up" do
+    visit root_path
+    click_link 'Sign up'
+    fill_in 'Email', with: 'user@example.com'
+    fill_in 'Password', with: 'secret'
+    click_button 'Sign up'
+    page.should have_content('Welcome')
+  end
+end
+{% endhighlight %}
 
 You don't need much programming experience to understand what's going on here. The test is just going through the same sign up process that a user visiting your site would. The final line of the test `page.should have_content('Welcome')` is stating what the next page should show after a user clicks the 'Sign up' button. Simple, right? So go write some tests!
 
