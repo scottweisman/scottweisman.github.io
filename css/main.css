@@ -33,6 +33,7 @@ h1.title {
   font-size: 22px;
   font-weight: 300;
   display: inline-block;
+  float: left;
 }
 
 header {
